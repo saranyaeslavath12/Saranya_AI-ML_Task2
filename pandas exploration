@@ -1,0 +1,5 @@
+print(df.head())
+print(df.dtypes)
+print(df.isnull().sum())
+low_attendance = df[df['attendance'] < 70]
+print(low_attendance)
